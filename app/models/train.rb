@@ -1,5 +1,6 @@
 class Train < ApplicationRecord
     validates_presence_of :number
+    mount_uploader :train_logo, TrainLogoUploader
     has_many :reservations
 
     # 产生所有位置从 1A~6C
