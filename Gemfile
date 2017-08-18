@@ -44,6 +44,7 @@ gem 'mini_magick'
 gem 'will_paginate'
 
 group :development, :test do
+  gem 'rspec-rails'
   gem 'pry'
   gem 'awesome_rails_console'
 end
